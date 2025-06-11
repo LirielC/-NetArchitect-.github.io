@@ -1,88 +1,36 @@
-# NetArchitect - Site Institucional
-https://lirielc.github.io/-NetArchitect-.github.io/
-## 📋 Sobre o Projeto
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-O NetArchitect é um site institucional moderno desenvolvido para uma consultoria especializada em arquitetura de redes. O projeto foi construído utilizando tecnologias modernas e boas práticas de desenvolvimento web.
+## Getting Started
 
-## 🚀 Tecnologias Utilizadas
+First, run the development server:
 
-- [Next.js](https://nextjs.org/) - Framework React para produção
-- [TypeScript](https://www.typescriptlang.org/) - Superset JavaScript com tipagem estática
-- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
-- [Framer Motion](https://www.framer.com/motion/) - Biblioteca para animações
-- [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de ícones
-
-## 🛠️ Pré-requisitos
-
-- Node.js 18.x ou superior
-- npm ou yarn
-
-## 🔧 Instalação
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/LirielC/-NetArchitect-.github.io
-.git
-```
-
-2. Entre no diretório do projeto:
-```bash
-cd netarchitect
-```
-
-3. Instale as dependências:
-```bash
-npm install
-# ou
-yarn install
-```
-
-4. Execute o projeto em modo de desenvolvimento:
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-5. Acesse o projeto em `http://localhost:3000`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📁 Estrutura do Projeto
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```
-netarchitect/
-├── src/
-│   ├── app/              # Páginas e rotas da aplicação
-│   ├── components/       # Componentes reutilizáveis
-│   └── styles/          # Estilos globais
-├── public/              # Arquivos estáticos
-└── package.json         # Dependências e scripts
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🎨 Funcionalidades
+## Learn More
 
-- Design responsivo e moderno
-- Animações suaves com Framer Motion
-- Seções informativas sobre a empresa
-- Timeline interativa
-- Cards de valores e equipe
-- Seção de certificações e parcerias
+To learn more about Next.js, take a look at the following resources:
 
-## 📝 Scripts Disponíveis
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Cria a build de produção
-- `npm run start` - Inicia o servidor de produção
-- `npm run lint` - Executa o linter
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🤝 Contribuindo
+## Deploy on Vercel
 
-1. Faça um Fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
