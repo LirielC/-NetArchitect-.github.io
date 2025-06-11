@@ -169,7 +169,7 @@ export default function Footer() {
 
         <div className="border-t border-dark-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} NetArchitect. Todos os direitos reservados.
+            &copy; {currentYear} NetArchitect. Todos os direitos reservados. Site criado apenas para fins acadêmicos. 
           </p>
           <div className="flex flex-wrap gap-6 text-sm">
             <Link href="/termos" className="text-gray-400 hover:text-white transition-colors">
